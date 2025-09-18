@@ -1,0 +1,33 @@
+.loginWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+
+  img {
+    margin-bottom: 2em;
+  }
+}
+
+.loginContainer {
+  padding: 1.5em;
+  border-radius: 1em;
+  width: 20em;
+  background-color: var(--color-three);
+  color: var(--color-two);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+
+  h2 {
+    margin-bottom: 1em;
+    text-align: center;
+  }
+
+  article {
+    margin-bottom: .75em;
+  }
+
+  .enter {
+    width: 100%;
+  }
+}

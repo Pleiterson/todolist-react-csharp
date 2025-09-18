@@ -1,0 +1,39 @@
+.page {
+  padding: 2rem;
+}
+
+.pageHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+
+  h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--color-three);
+  }
+
+  .actions {
+    margin-left: auto;
+    display: flex;
+    gap: .75rem;
+    align-items: center;
+
+    .updateTable {
+      padding: .5em 1em;
+      line-height: 1.6;
+      background-color: var(--color-three);
+    }
+  }
+}
+
+.table {
+  font-size: .875em;
+  padding: 1em;
+
+  .actionsButtons {
+    display: flex;
+    gap: 0.5rem;
+  }
+}

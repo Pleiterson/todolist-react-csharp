@@ -1,0 +1,42 @@
+[
+  {
+    "id": 101,
+    "title": "Escrever artigo para o blog",
+    "description": "Criar conteúdo sobre boas práticas em desenvolvimento web",
+    "isCompleted": false,
+    "category": "Trabalho",
+    "createdAt": "2025-08-26T09:00:00Z",
+    "updatedAt": "2025-08-26T09:00:00Z",
+    "userId": 3
+  },
+  {
+    "id": 102,
+    "title": "Organizar armário",
+    "description": "Separar roupas para doação e limpar prateleiras",
+    "isCompleted": true,
+    "category": "Pessoal",
+    "createdAt": "2025-08-25T14:20:00Z",
+    "updatedAt": "2025-08-25T16:00:00Z",
+    "userId": 4
+  },
+  {
+    "id": 103,
+    "title": "Comprar presente de aniversário",
+    "description": "Escolher presente para a amiga Ana e enviar até sexta-feira",
+    "isCompleted": false,
+    "category": "Pessoal",
+    "createdAt": "2025-08-26T11:30:00Z",
+    "updatedAt": "2025-08-26T11:30:00Z",
+    "userId": 3
+  },
+  {
+    "id": 104,
+    "title": "Revisar código do projeto",
+    "description": "Verificar pull requests e adicionar comentários sobre melhorias",
+    "isCompleted": false,
+    "category": "Trabalho",
+    "createdAt": "2025-08-26T13:15:00Z",
+    "updatedAt": "2025-08-26T13:15:00Z",
+    "userId": 4
+  }
+]

@@ -1,0 +1,108 @@
+@use "sass:color";
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "primereact/resources/themes/lara-light-purple/theme.css";
+@import "primereact/resources/primereact.min.css";
+@import "primeicons/primeicons.css";
+
+:root {
+  --color-one: #000000;
+  --color-two: #fafafa;
+  --color-three: #510c76;
+  --color-four: #f6e948;
+  --color-five: #4ad10a;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Barlow', sans-serif;
+}
+
+body {
+  font-weight: 400;
+  font-size: 1em;
+  background-color: var(--color-two);
+  color: var(--color-one);
+  line-height: 1.6;
+}
+
+.button {
+  cursor: pointer;
+  background-color: var(--color-two);
+  color: var(--color-three);
+  border-radius: .5em;
+  border: .06em solid var(--color-three);
+  font-weight: 500;
+  font-size: .875em;
+  padding: .5em 1em;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.button-yellow {
+  cursor: pointer;
+  background-color: var(--color-four);
+  color: var(--color-three);
+  border-radius: .5em;
+  border: none;
+  font-weight: 500;
+  font-size: .875em;
+  padding: .5em 1em;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.button-purple {
+  cursor: pointer;
+  background-color: var(--color-three);
+  color: var(--color-five);
+  border-radius: .5em;
+  border: none;
+  font-weight: 500;
+  font-size: .875em;
+  padding: .5em 1em;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+
+  label {
+    font-size: .9rem;
+    color: var(--muted);
+  }
+}
+
+.w-full {
+  width: 100%; 
+}
+
+// componentes do Primereact
+.p-inputtext, .p-inputwrapper {
+  width: 100%;
+}
+
+.p-icon-field {
+  width: 100%;
+}
+
+.p-inputtext {
+  padding: .5em;
+}
+
+.p-icon-field > .p-input-icon {
+  top: 25%;
+}
+
+.p-dialog-title {
+  color: var(--color-three);
+}
